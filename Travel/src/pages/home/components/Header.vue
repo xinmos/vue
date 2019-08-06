@@ -2,7 +2,7 @@
 	<div>
 		<div class="header">
 			<div class="header-left">
-				<span class="iconfont" back-icon>&#xe658;</span>
+				<span class="iconfont back-icon">&#xe658;</span>
 			</div>
 			<div class="header-input">
 				<span class="iconfont">&#xe63c;</span>
@@ -10,7 +10,7 @@
 			</div>
 			<div class="header-right">
 				城市
-				<span class="iconfont" arrow-icon>&#xe65c;</span>
+				<span class="iconfont arrow-icon">&#xe65c;</span>
 			</div>
 		</div>
 	</div>
@@ -34,6 +34,7 @@
 			float: left
 			.back-icon
 				text-align: center
+				font-size: 20px
 		.header-input
 			flex: 1
 			height: 38px
