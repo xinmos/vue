@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- 展示当前路由内容 -->
     <router-view/>
   </div>
 </template>
