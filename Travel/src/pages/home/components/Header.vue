@@ -26,7 +26,7 @@
 	@import '~styles/varibles.styl'
 	.header
 		display: flex
-		line-height: 43px
+		line-height: 53px
 		background: $bgColor
 		color: #fff
 		.header-left
@@ -34,12 +34,12 @@
 			float: left
 			.back-icon
 				text-align: center
-				font-size: 20px
+				font-size: 30px
 		.header-input
 			flex: 1
-			height: 38px
-			line-height: 38px
-			margin-top: 3px
+			height: 44px
+			line-height: 44px
+			margin-top: 6px
 			margin-left: 5px
 			background: #fff
 			border-radius: 4px
