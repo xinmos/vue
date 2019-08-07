@@ -2,31 +2,26 @@
 	<div>
 		<home-header></home-header>
 		<home-swiper></home-swiper>
-<<<<<<< HEAD
 		<home-icons></home-icons>
-=======
-		<div>test</div>
->>>>>>> 1b1b6240b45e44aeaff3e2a76e88b2fb355ece61
+		<home-recommend></home-recommend>
+		<home-weekend></home-weekend>
 	</div>
 </template>
 
 <script>
 import HomeHeader from './components/Header'
 import HomeSwiper from './components/Swiper'
-<<<<<<< HEAD
 import HomeIcons from './components/Icons'
-=======
->>>>>>> 1b1b6240b45e44aeaff3e2a76e88b2fb355ece61
+import HomeRecommend from './components/Recommend'
+import HomeWeekend from './components/Weekend'
 export default{
  	name: 'Home',
  	components: {
  		HomeHeader,
-<<<<<<< HEAD
  		HomeSwiper,
- 		HomeIcons
-=======
- 		HomeSwiper
->>>>>>> 1b1b6240b45e44aeaff3e2a76e88b2fb355ece61
+ 		HomeIcons,
+ 		HomeRecommend,
+ 		HomeWeekend
  	}
 }
 </script>
