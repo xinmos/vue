@@ -4,7 +4,7 @@
 		<ul>
 			<li 
 			class="item border-bottom" 
-			v-for="item of recommendList"
+			v-for="item of list"
 			:key='item.id'
 			>
 				<img class="item-img" :src="item.imgUrl">
@@ -21,34 +21,15 @@
 <script type="text/javascript">
 export default {
 	name: 'HomeRecommend',
-	data () {
-		return {
-		recommendList: [{
-				id: '0001',
-				imgUrl: 'http://img1.qunarzz.com/sight/p0/1808/d8/d89ec1b26e92573ea3.water.jpg_200x200_8606cb4d.jpg',
-				title: '海昌发现王国',
-				desc: '测试'
-			},{
-				id: '0002',
-				imgUrl: 'http://img1.qunarzz.com/sight/p0/1808/d8/d89ec1b26e92573ea3.water.jpg_200x200_8606cb4d.jpg',
-				title: '海昌发现王国',
-				desc: '测试'
-			},{
-				id: '0003',
-				imgUrl: 'http://img1.qunarzz.com/sight/p0/1808/d8/d89ec1b26e92573ea3.water.jpg_200x200_8606cb4d.jpg',
-				title: '海昌发现王国',
-				desc: '测试'
-			}]
-		}
-		}
-		
+	props: {
+		list: Array
+	}
 }
 </script>
 
 <style lang="stylus" scoped>
 	@import '~styles/mixins.styl'
 	.title
-		margin-top: 2px
 		line-height: 35px
 		background: #eee
 		text-indent: 2px
