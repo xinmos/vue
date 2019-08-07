@@ -43,7 +43,11 @@
 		overflow: hidden
 		width: 100%
 		height: 0
+<<<<<<< HEAD
 		padding-bottom: 26.25%
+=======
+		padding-bottom: 31.25%
+>>>>>>> 1b1b6240b45e44aeaff3e2a76e88b2fb355ece61
 		.swiper-img
 			width: 100%
 </style>
