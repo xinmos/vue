@@ -19,10 +19,11 @@
 </template>
 
 <script type="text/javascript">
+	import { mapState } from 'vuex'
 	export default {
 		name: 'HomeHeader',
-		props: {
-			city: String
+		computed: {
+			...mapState(['city'])
 		}
 	}
 </script>
@@ -42,15 +43,16 @@
 				font-size: 30px
 		.header-input
 			flex: 1
-			height: 44px
-			line-height: 44px
+			height: 38px
+			line-height: 38px
 			margin-top: 6px
 			margin-left: 5px
 			background: #fff
 			border-radius: 4px
 			color: #ccc
 		.header-right
-			width: 62px
+			min-width: 64px
+			padding: 4px
 			float: right
 			text-align: center
 			color: #eee

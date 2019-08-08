@@ -51,9 +51,7 @@ export default {
 					clearTimeout(this.timer)
 				}
 				this.timer = setTimeout(() => {
-					console.log(this.startY)
 					const touchY = e.touches[0].clientY - 89
-					console.log(touchY)
 					const index = Math.floor((touchY - this.startY) / 18) - 1
 					if (index >= 0 && index < this.letters.length) {
 						this.$emit('change', this.letters[index])
