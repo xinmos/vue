@@ -35,10 +35,6 @@
 				showGallary: false
 			}
 		},
-		components: {
-			CommonGallary,
-			FadeAnimation
-		},
 		methods: {
 			handleGallaryClick () {
 				this.showGallary = true
@@ -46,6 +42,10 @@
 			handleGallaryclose () {
 				this.showGallary = false
 			}
+		},
+		components: {
+			CommonGallary,
+			FadeAnimation
 		}
 	}
 </script>

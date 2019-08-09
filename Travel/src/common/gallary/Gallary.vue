@@ -8,7 +8,7 @@
 			    >
 			    	<img class="gallary-img" :src="item" />
 			    </swiper-slide>
-			    <div class="swiper-pagination"  slot="pagination"></div>
+			    <div class="swiper-pagination" slot="pagination"></div>
 		  	</swiper>
 		</div>
 	</div>
@@ -31,7 +31,7 @@
 					pagination: '.swiper-pagination',
 					paginationType: 'fraction',
 					observeParents: true,
-					observe: true
+        			observer: true
 				}
 			}
 		},
@@ -65,5 +65,5 @@
 				width: 100%
 			.swiper-pagination
 				color: #fff
-				bottom: -120px
+				bottom: -30px
 </style>
