@@ -3,11 +3,11 @@
 		<div class="title">热销推荐</div>
 		<ul>
 			<router-link
-				to='/detail'
 				target='li'
 				class="item border-bottom" 
 				v-for="item of list"
 				:key='item.id'
+				:to="'/detail/' + item.id"
 				>
 					<img class="item-img" :src="item.imgUrl">
 					<div class="item-info">

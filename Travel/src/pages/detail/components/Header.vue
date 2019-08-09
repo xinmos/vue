@@ -44,6 +44,9 @@
 		},
 		activated() {
 			window.addEventListener('scroll', this.handleScroll)
+		},
+		deactivated() {
+			window.removeEventListener('scroll', this.handleScroll)
 		}
 	}
 </script>
@@ -64,6 +67,7 @@
 			color: #fff
 			font-size: 28px
 	.header-fixed
+		z-index: 10
 		position: fixed
 		top: 0
 		right: 0
