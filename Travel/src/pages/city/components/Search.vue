@@ -87,17 +87,17 @@ export default {
 <style lang="stylus" scoped>
 	@import '~styles/varibles.styl'
 	.search
-		line-height: 42px
+		line-height: 2.5rem
 		padding: 2px
 		background: $bgColor
 		.search-input
 			padding: 2px
 			box-sizing: border-box
 			width: 100%
-			height: 36px
+			height: 2.3rem
 			text-align: center
 			border-radius: 6px
-			line-height: 36px
+			line-height: 2.3rem
 			color: #666
 	.search-content
 		z-index: 1
@@ -109,7 +109,7 @@ export default {
 		bottom: 0
 		background: #eee
 		.search-item
-			line-height: 30px
+			line-height: 1.7rem
 			padding-left: 6px
 			color: #666
 			font-family: '微软雅黑'

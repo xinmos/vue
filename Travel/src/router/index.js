@@ -18,6 +18,10 @@ export default new Router({
       path: '/detail/:id',
       name: 'Detail',
       component: () => import('@/pages/detail/Detail')
+    },{
+      path: '/sight',
+      name: 'Sight',
+      component: () => import('@/pages/sight/Sight')
     }
   ],
   scrollBehavior (to, from, savedPosition) {

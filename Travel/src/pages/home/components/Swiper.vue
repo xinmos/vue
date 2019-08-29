@@ -24,14 +24,14 @@
 				swiperOption: {
 					pagination: '.swiper-pagination',
 					loop: true
-				},
+				}
 			}
 		},
 		computed: {
 			showSwiper () {
 				return this.list.length
 			}
-		}
+		},
 	}
 	
 </script>

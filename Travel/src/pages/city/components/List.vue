@@ -98,11 +98,11 @@ export default {
 		right: 0
 		bottom: 0
 		.title
-			line-height: 24px
+			line-height: 1.4rem
 			background: #eee
 			padding-left: 10px 
 			color: #666
-			font-size: 12px
+			font-size: 0.9rem
 		.button-list
 			overflow: hidden
 			padding: 6px 36px 6px 6px
@@ -117,6 +117,6 @@ export default {
 					border-radius: 5px
 		.item-list
 			.item
-				line-height: 40px
+				line-height: 2.1rem
 				padding-left: 8px
 </style>

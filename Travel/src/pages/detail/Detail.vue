@@ -35,11 +35,8 @@
 		},
 		methods: {
 			getDetailInfo () {
-				axios.get('/api/detail.json?id=', {
-					params: {
-			          id: this.$route.params.id
-			        }
-				}).then(this.handleGetDataSucc)
+				axios.get('http://127.0.0.1:8000/detail/')
+				.then(this.handleGetDataSucc)
 			},
 			handleGetDataSucc (res) {
 				res = res.data

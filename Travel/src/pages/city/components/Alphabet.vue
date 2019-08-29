@@ -73,7 +73,7 @@ export default {
 		flex-direction: column
 		justify-content: center
 		position: absolute
-		top: 100px
+		top: 6.5rem
 		bottom: 0
 		width: 16px
 		right: 0

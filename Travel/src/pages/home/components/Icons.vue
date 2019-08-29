@@ -7,9 +7,9 @@
 				  v-for='item of page'
 				  :key='item.id'
 				>
-					<div class="icon-img">
+					<router-link tag='div' :to='item.url' class="icon-img">
 						<img class="icon-img-content" :src="item.imgUrl">
-					</div>
+					</router-link>
 					<p class="icon-desc">{{item.desc}}</p>
 				</div>
 			</swiper-slide>
@@ -34,7 +34,7 @@ export default {
 		pages (){
 			const pages = []
 			this.list.forEach((item,index) => {
-				const page = Math.floor(index / 8)
+				const page = Math.floor(index / 4)
 				if (!pages[page]) {
 					pages[page] = []
 				}
@@ -51,7 +51,7 @@ export default {
 	@import '~styles/mixins.styl'
 	.icons >>> .swiper-container
 		height: 0
-		padding-bottom: 50%
+		padding-bottom: 25%
 	.icon
 		position: relative
 		overflow: hidden
@@ -76,8 +76,8 @@ export default {
 			left: 0
 			right: 0
 			bottom: 0
-			height: 44px
-			line-height: 44px
+			height: 2.9rem
+			line-height: 2.9rem
 			color: $darkTextColor
 			text-align: center
 			ellipsis()

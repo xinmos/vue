@@ -36,23 +36,23 @@
 		background: $bgColor
 		color: #fff
 		.header-left
-			width: 32px
+			width: 1.8rem
 			float: left
 			.back-icon
 				text-align: center
-				font-size: 30px
+				font-size: 1.7rem
 		.header-input
 			flex: 1
-			height: 38px
-			line-height: 38px
+			height: 2rem
+			line-height: 2rem
 			margin-top: 6px
 			margin-left: 5px
 			background: #fff
 			border-radius: 4px
 			color: #ccc
 		.header-right
-			min-width: 64px
-			padding: 4px
+			min-width: 3rem
+			padding: 1px
 			float: right
 			text-align: center
 			color: #eee
